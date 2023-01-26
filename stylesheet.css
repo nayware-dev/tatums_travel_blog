@@ -1,0 +1,56 @@
+/* font for whole page */
+* {
+    font-family: Arial
+}
+
+/* header styling */
+
+header {
+    background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
+    background-size: cover;
+    font: calibri;
+    color: white;
+}
+
+/* header text */
+
+h3 {
+    color: purple;
+}
+
+/* body style */
+
+body {
+    background-color: lightgrey;
+}
+
+article {
+    background-image: linear-gradient(#eae5e1, #00447c);
+}
+
+/* hyperlink */
+
+a {
+    color: lightseagreen;
+    
+}
+/* unvisited link */
+a:link {
+color: lightseagreen;
+}
+
+/* link user has visited */
+a:visited {
+color: red;
+} 
+
+/* when mouse hovers over link */
+a:hover {
+color: darkblue;
+}
+
+/*colour when link is clicked */
+
+a:active {
+color: red;
+}
